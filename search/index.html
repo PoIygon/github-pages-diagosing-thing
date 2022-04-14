@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Visualize - Feature</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="/images/icon.png">
+
+  <!-- JS
+  -------------------------------------------------- -->
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <nav>
+    <ul>
+      <li><a href="/"><img src="/images/icon.png" alt="" width="10%"></a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/faq">FAQ</a></li>
+      <li class="li-primary"><a href="/search">Search</a></li>
+      <li><a href="/feature">Feature</a></li>
+    </ul>
+  </nav>
+    <div class="container centre">
+        <h1>Search any studio!</h1>
+        <input type="text" name="search" id="search">
+        <input type="button" value="enter" class="button-primary" id="enter">
+        <div id="results" class="invisible">
+            <h1 id="title"></h1>
+            <img id="image" src="" alt="">
+            <p id="description"></p>
+            <h1>Followers</h1>
+            <p id="followers"></p>
+            <h1>Projects</h1>
+            <p id="projects"></p>
+            <h1>Comments</h1>
+            <p id="comments"></p>
+        </div>
+    </div>
+    <script src="/js/search.js"></script>
+</body>
+</html>
